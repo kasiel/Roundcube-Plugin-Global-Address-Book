@@ -9,23 +9,23 @@
 //      %d is replaced with the domain part of the username (if the username is an email address or default mail domain if not)
 //      %h is replaced with the imap host (from the session info)
 // eg. to create one global address book per domain: global_addressbook@%d
-$config['globaladdressbook_user'] = '[global_addressbook_user]';
+$rcmail_config['globaladdressbook_user'] = '[global_addressbook_user]';
 
 // make global address book read only
-$config['globaladdressbook_readonly'] = true;
+$rcmail_config['globaladdressbook_readonly'] = true;
 
 // allow groups in global address book
-$config['globaladdressbook_groups'] = false;
+$rcmail_config['globaladdressbook_groups'] = false;
 
 // global address book admin user
 // admin user(s) can always add/edit/delete entries, overrides readonly
 // either a single username, an array of usernames, or a regular expression, see README for more info
-$config['globaladdressbook_admin'] = null;
+$rcmail_config['globaladdressbook_admin'] = null;
 
 // show addresses from the global address book in the auto complete menu when composing an email
-$config['globaladdressbook_autocomplete'] = true;
+$rcmail_config['globaladdressbook_autocomplete'] = true;
 
 // check globaladdressbook for known senders when displaying remote inline images
-$config['globaladdressbook_check_safe'] = true;
+$rcmail_config['globaladdressbook_check_safe'] = true;
 
 ?>
