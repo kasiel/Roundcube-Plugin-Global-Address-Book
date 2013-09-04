@@ -1,0 +1,9 @@
+<?php
+/* Author: Philip Weir */
+
+$labels = array();
+$labels['globaladdressbook'] = '회사/단체이름';
+
+$messages = array();
+
+?>
